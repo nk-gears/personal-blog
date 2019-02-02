@@ -16,7 +16,10 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "fix-semi":
-      "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+      "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
+      "dev": "gatsby develop",   
+      "crosspost": "node scripts/publish/index.js",
+      "create": "npm run create --prefix scripts/scaffold"
   },
   "dependencies": {
     "@types/react-helmet": "^5.0.5",

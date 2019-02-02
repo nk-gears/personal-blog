@@ -66,7 +66,7 @@ const Share = (props: { link: string; title: string }) => (
         icon={twitterIcon}
         alt="Share on Twitter"
         link={`https://twitter.com/intent/tweet?text=${encodeURI(
-          `${props.title} by @pav_sidhu ${props.link}`
+          `${props.title} by @nirmal_kumar ${props.link}`
         )}`}
       />
     </Content>

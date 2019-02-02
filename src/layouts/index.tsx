@@ -49,7 +49,7 @@ class Template extends React.Component<Props> {
 
     return (
       <Container>
-        <Helmet title="Pav Sidhu | Blog">
+        <Helmet title="Nirmal | Blog">
           <html lang="en" />
 
           <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
