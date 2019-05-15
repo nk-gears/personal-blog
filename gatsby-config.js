@@ -9,7 +9,7 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
-        ignore: process.env.NODE_ENV === `production` && [`**/draft-*`],
+        ignore: process.env.NODE_ENV === `production` && [`**/drafts*`],
       },
     },
     {
