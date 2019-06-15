@@ -1,8 +1,11 @@
-# [blog.gyanmoti.in](https://blog.gyanmoti.in)
 
-> A place for me to write ✏️
- 
+Personal website running on Gatsby, React, and Node.js.
+
+
+#Credits
+
+- Cloned from orginal works of Tansia Rascia Repository https://github.com/tanisrascia/taniarascia.com
 
 ## License
 
-MIT © [Nirmal](https://blog.gyanmoti.in)
+This project is open source and available under the [MIT License](LICENSE).
