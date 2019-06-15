@@ -6,17 +6,13 @@ template: post
 thumbnail: '../thumbnails/portainer.png'
 slug: portainer
 categories:
-  - JavaScript
+  - Container
   - Popular
 tags:
-  - javascript
-  - vue
-  - library
+  - docker
+  - management
 ---
-
-# Portainer - Web Interface for your Docker Containers
-
-[Portainer](https://www.portainer.io) prvoides a sleek interface to swift through Docker environments It allows you to manage your containers, images, networks and volumes. Portainer itself will run in another container of your docker environment.
+[Portainer](https://www.portainer.io) provides a sleek interface to swift through Docker environments It allows you to manage your containers, images, networks and volumes. Portainer itself will run in another container of your docker environment.
 
 Setting up a Portainer
 

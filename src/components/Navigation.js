@@ -39,7 +39,7 @@ export default class Navigation extends Component {
           <div className="brand">
             <Link to="/">
               <img src={sitelogo} className="favicon" alt="Nirmal" />
-              <div className="tagline">Nirmal's Personal Blog</div>
+              <span className="text">Nirmal's Personal Blog</span>
             </Link>
           </div>
           <div className="links">
