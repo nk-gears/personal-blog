@@ -4,7 +4,7 @@ slug: me
 template: page
 ---
 
-I’m Nirmal, Web and Software Enthusiast lining in Greater Chennai. I am independent Freelancer designing and architecting solutions for Cloud.
+I’m Nirmal, Web and Software Enthusiast living in Greater Chennai. I am independent Freelancer designing and architecting solutions for Cloud.
 
 ## Currently Using
 
