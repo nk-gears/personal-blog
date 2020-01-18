@@ -32,6 +32,7 @@ module.exports = {
       options: {
         name: 'assets',
         path: `${__dirname}/static/`,
+        ignore: process.env.NODE_ENV === `production` && [`**/posts/drafts`]
       },
     },
     {
