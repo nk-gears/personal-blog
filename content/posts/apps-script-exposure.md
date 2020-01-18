@@ -1,18 +1,17 @@
-## 
-
- ```	
-title: 'Google Apps Script - Exploration'
+---
+title: 'Google Apps Script - Exposure'
 date: '2020-01-11'
-path: '/apps-script-gotchas-snippets'
+path: '/apps-script-exposure.md'
 template: post
-thumbnail: '../thumbnails/apps-script.jpg'
+thumbnail: '../thumbnails/app-script-logo.png'
 categories:
-  - Google Apps Script
-  - Automation
+  - Programming
+  - Popular
 tags:
-  - javascript
   - gsuite
- ```
+  - apps-script
+  - javascript
+---
 
 # Google Apps Script - Exploration
 
@@ -26,7 +25,7 @@ In this post i am have jotted down some of the important things which i research
 - [x] Creating Dynamic Google Slides using Template
 - [x] Creating Custom Menu with Icons and Separators
 - [x] Auth  Scopes & Connect to External Apps via OAuth2
-- [x] Datetime Conversions with Timezone 
+- [x] Datetime Conversions with Timezone
 - [x] Creating HTML Pages and Publishing different versions
 - [x] Creating a Shared Library (versionised) and using across different Apps.
 - [x] Passing Querystring Arguments to Web App.
@@ -50,36 +49,17 @@ In this post i am have jotted down some of the important things which i research
 
 **External Systems**
 
-The following are the external systems API to connect from Google Apps Script.
+I have created few libraries in Google Apps Script for the following external API's. Please contact me if you need any support on these API's.
 
-- Slack
+- Xero
+
+- FreeAgent
 
 - Fyle
 
-- FreeAgent
-
-- Xero
-
-- CheckCentral
-
-- Gsuite Reseller API
-
-
-**Personal Apps**
-
-- [x] Automated Toptal Timesheet to Sync to Google Sheet
-- [x] Created Script to Automate Wakatime Activity to Google Sheet
-- [x] Created a Google Sheet based Bot Assistant for Skype Group Conversation
-
-I have created few libraries in Google Apps Script for the following API's. Please contact me if you need any support on these API's.
-
-- Xero
-
-- FreeAgent
-
 - Deputy
 
-- Google Reseller 
+- Google Reseller
 
 - Google Docs/Slides Manipulation via Batch API
 
@@ -87,11 +67,21 @@ I have created few libraries in Google Apps Script for the following API's. Plea
 
 - BlueBeam
 
-- Twillio 
+- Twillio
 
 - Slack
 
 - Discord
 
-  
+- CheckCentral
+
+
+**Personal Apps**
+
+These are the scripts which i have created for my personal use.
+
+- [x] Automated Toptal Timesheet to Sync to Google Sheet
+- [x] Created Script to Automate Wakatime Activity to Google Sheet
+- [x] Created a Google Sheet based Bot Assistant for Skype Group Conversation
+
 
