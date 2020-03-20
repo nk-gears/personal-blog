@@ -13,7 +13,7 @@ tags:
   - setup
 ---
 
-# Launch Extension
+# Launch Extension Setup
 
 Adobe released Launch Extension which is the next Generation Platform for Tag management. It simplifies the workflow involved in the development, testing and deployment of tags to website. Launch Extension is a platform where multiple external third party tag services can be easily integrated through Extension Catalog Store.
 
