@@ -1,7 +1,7 @@
 const urljoin = require('url-join')
 const config = require('./data/SiteConfig')
 
-module.exports = {
+const cfg= {
   pathPrefix: config.pathPrefix === '' ? '/' : config.pathPrefix,
   siteMetadata: {
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),
@@ -31,8 +31,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'assets',
-        path: `${__dirname}/static/`,
-        ignore: process.env.NODE_ENV === `production` && [`**/posts/drafts`]
+        path: `${__dirname}/static/`
       },
     },
     {
@@ -185,4 +184,16 @@ module.exports = {
       },
     },
   ],
+};
+
+if (process.env.CONTEXT !== "production") {
+  cfg.plugins.push({
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `drafts`,
+      path: `${__dirname}/content/drafts`
+    }
+  });
 }
+
+module.exports=cfg;

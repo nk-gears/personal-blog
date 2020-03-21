@@ -22,7 +22,7 @@ Xiaomi, one of the largest brand got their products to reach most of the users i
 
 So far, i have purchased around 5 RedMi Mobile devices for my family and friends. One of the device which i bought for my famly earlier is the Redmi 3S which i bought 5 years back and it still working flawlessly with the same performance. With this goodwill with Xiaomi, i have decided to go with MiTv 4A 43. This is the first generation TV and to my surprise after 20 days the have released a second generation of Tv with some upgraded hardware which supports chromecast and voice over remote.
 
-The first Gen TV was promised that the Oreo Update will be released early 2019. I was closely watching the Reviews and Updates from Tech Singh. And till now there is no official update on the Launch. One of the video from tech Singh was a eye opener that should i really need an update instead of living with what i have. Currently, I was happy with the Old Firmware of MiTV 1st generation and using this effectively. This is the living document of all my experiments with MiTV and using them productively. 
+The first Gen TV was promised that the Oreo Update will be released early 2019. I was closely watching the Reviews and Updates from Tech Singh. And till now there is no official update on the Launch. One of the video from tech Singh was a eye opener that should i really need an update instead of living with what i have. Currently, I was happy with the Old Firmware of MiTV 1st generation and using this effectively. This is the living document of all my experiments with MiTV and using them productively.
 
 Installing .apk files
 
@@ -48,7 +48,7 @@ Youtube
 - Google's Youtube Player
 - Smart Youtube Player - Open Source apk (Supports Quality and Speed Selection)
 
-Media Casting 
+Media Casting
 
 - Native Casting - Miracast
 - Cast from Mobile Youtube App (Cast Icon)
