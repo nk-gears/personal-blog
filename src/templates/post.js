@@ -100,13 +100,9 @@ export const pageQuery = graphql`
         template
       }
       fields {
-        nextTitle
-        nextSlug
-        prevTitle
-        prevSlug
         slug
         date
       }
     }
   }
-`
+  `
