@@ -40,13 +40,13 @@ const cfg= {
         pathToConfigModule: `${__dirname}/src/utils/typography.js`,
       },
     },
-    {
+    /*{
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
         path: `${__dirname}/content/`,
       },
-    },
+    },*/
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -185,6 +185,39 @@ const cfg= {
     },
   ],
 };
+
+cfg.plugins.push({
+  resolve: `gatsby-source-filesystem`,
+  options: {
+    name: `pages`,
+    path: `${__dirname}/content/pages`
+  }
+});
+
+cfg.plugins.push({
+  resolve: `gatsby-source-filesystem`,
+  options: {
+    name: `posts`,
+    path: `${__dirname}/content/posts`
+  }
+});
+
+cfg.plugins.push({
+  resolve: `gatsby-source-filesystem`,
+  options: {
+    name: `images`,
+    path: `${__dirname}/content/images`
+  }
+});
+
+cfg.plugins.push({
+  resolve: `gatsby-source-filesystem`,
+  options: {
+    name: `thumbnails`,
+    path: `${__dirname}/content/thumbnails`
+  }
+});
+
 
 if (process.env.CONTEXT !== "production") {
   cfg.plugins.push({
