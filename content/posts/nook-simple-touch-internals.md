@@ -25,7 +25,7 @@ The NST is a 6-inch e-Ink Display with 800x600 dimension of 2GB Internal storage
 
 **NST - Light Guide (Green Bezel) : Infrared Emitter and Receiver**
 
-​	The zForce Touch screen from "neonode" use the the green acrylic bezel as the IR light refractor through that the underlying PCB is able to detect the user touches. It even works well with multi touch. When the glue is applied on the front-panel bezels, the touch sensor was working well. After few hours, i left the NST to dry out and when i came back the touch sensor failed to work. When i investigated further the glue has entered inside the green light guide bezel and collapsed the light refraction alogorithm.
+​	The zForce Touch screen from "neonode" use the the green acrylic bezel as the IR [light refractor](https://www.seminarsonly.com/computer%20science/zForce-Touch-Screen.php) through that the underlying PCB is able to detect the user touches. It even works well with multi touch. When the glue is applied on the front-panel bezels, the touch sensor was working well. After few hours, i left the NST to dry out and when i came back the touch sensor failed to work. When i investigated further the glue has entered inside the green light guide bezel and collapsed the light refraction alogorithm.
 
 ​	From then i was unable to use the NST as its is equivalent to a dead device. The device can response only after a human touch because it doesn't support USB keyboard or mouse.
 

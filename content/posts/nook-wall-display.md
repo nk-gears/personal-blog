@@ -14,7 +14,7 @@ tags:
 
 In this post i would like to share how i used my spare rooted Nook Simple Touch e-Ink reader as a Wall mounted display unit to show some live news and information. This was inspired by the post [Train Status Display](https://shkspr.mobi/blog/2020/02/turn-an-old-ereader-into-an-information-screen-nook-str/)
 
-<img src="../images/nook-wall-display.png" style="zoom:50%;" />
+<img src="../images/nook-wall-display1.png" style="zoom:50%;" />
 
 
 
