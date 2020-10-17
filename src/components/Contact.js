@@ -12,9 +12,7 @@ export default class Contact extends Component {
 
         <p>You can also contact me via email or find me around the web.</p>
         <ul>
-          <li>
-            <strong>Email</strong>: <a href="mailto:me@gyanmoti.in">me@gyanmoti.in</a>
-          </li>
+
           <li>
             <strong>GitHub</strong>:{' '}
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/nk-gears">

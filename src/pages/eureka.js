@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Layout from '../layout'
+import Layout from '../layout/eureka'
 import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
-export default class BlogPage extends Component {
+export default class EurekaPage extends Component {
   state = {
     searchTerm: '',
     currentCategories: [],
@@ -64,32 +64,19 @@ export default class BlogPage extends Component {
         <Helmet title={`Posts – ${config.siteTitle}`} />
         <SEO />
         <div className="container">
-          <h1>posts</h1>
-          <div className="category-container">
-            {categories.map(category => {
-              const active = currentCategories.includes(category.fieldValue)
+          <h1>eurekas</h1>
 
-              return (
-                <div
-                  className={`category-filter ${active ? 'active' : ''}`}
-                  key={category.fieldValue}
-                  onClick={async () => {
-                    await this.updateCategories(category.fieldValue)
-                    await this.filterPosts()
-                  }}
-                >
-                  {category.fieldValue}
-                </div>
-              )
-            })}
-          </div>
+          <p>
+            All my eureka moments from my researches and experiments are documented here as articles.
+          </p>
+
           <div className="search-container">
             <input
               className="search"
               type="text"
               name="searchTerm"
               value={searchTerm}
-              placeholder="Type here to filter posts..."
+              placeholder="Type here to filter eurekas..."
               onChange={this.handleChange}
             />
             <div className="filter-count">{filterCount}</div>
@@ -102,8 +89,11 @@ export default class BlogPage extends Component {
 }
 
 export const pageQuery = graphql`
-  query BlogQuery {
-    posts: allMarkdownRemark(limit: 2000, sort: { fields: [fields___date], order: DESC }) {
+  query EurekaQuery {
+    posts: allMarkdownRemark(limit: 2000,
+       sort: { fields: [fields___date], order: DESC }
+       filter: { frontmatter: { categories: { in: "eureka" } } }
+       ) {
       edges {
         node {
           fields {

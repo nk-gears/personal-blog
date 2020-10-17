@@ -22,7 +22,7 @@ export default class Index extends Component {
 
         <div className="container">
           <section className="section">
-            <h2>Latest Articles</h2>
+            <h2>Recent Posts</h2>
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 

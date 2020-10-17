@@ -101,6 +101,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const postPage = path.resolve('src/templates/post.js')
+    const eurekaPage = path.resolve('src/templates/eurekaPost.js')
     const pagePage = path.resolve('src/templates/page.js')
     const tagPage = path.resolve('src/templates/tag.js')
     const categoryPage = path.resolve('src/templates/category.js')
@@ -146,6 +147,17 @@ exports.createPages = ({ graphql, actions }) => {
               categorySet.add(category)
             })
           }
+
+          if (edge.node.frontmatter.template === 'eureka') {
+            createPage({
+              path: edge.node.fields.slug,
+              component: eurekaPage,
+              context: {
+                slug: edge.node.fields.slug,
+              },
+            })
+          }
+
 
           if (edge.node.frontmatter.template === 'post') {
             createPage({

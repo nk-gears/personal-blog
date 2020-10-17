@@ -9,7 +9,7 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
 
-export default class PostTemplate extends Component {
+export default class EurekaPostTemplate extends Component {
   render() {
     const { slug } = this.props.pageContext
     const postNode = this.props.data.markdownRemark
@@ -79,7 +79,7 @@ export default class PostTemplate extends Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query EurekaPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       timeToRead

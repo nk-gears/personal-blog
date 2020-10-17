@@ -22,15 +22,19 @@ const config = {
     'I build open source projects and write the missing instruction manuals of the web.',
   menuLinks: [
     {
-      name: 'Me',
+      name: 'me',
       link: '/me/',
     },
     {
-      name: 'Articles',
+      name: 'posts',
       link: '/blog/',
     },
     {
-      name: 'Contact',
+      name: 'eurekas',
+      link: '/eureka/',
+    },
+    {
+      name: 'contact',
       link: '/contact/',
     },
   ],
