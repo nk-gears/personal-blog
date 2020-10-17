@@ -194,6 +194,16 @@ cfg.plugins.push({
   }
 });
 
+
+cfg.plugins.push({
+  resolve: `gatsby-source-filesystem`,
+  options: {
+    name: `eurekas`,
+    path: `${__dirname}/content/eurekas`
+  }
+});
+
+
 cfg.plugins.push({
   resolve: `gatsby-source-filesystem`,
   options: {

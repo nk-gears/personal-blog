@@ -5,7 +5,7 @@ path: '/streaming-youtube-live-apps-script.md'
 template: post
 thumbnail: '../thumbnails/YouTube-Live.jpg'
 categories:
-  - eureka
+  - Google AppsScript
   - Popular
 tags:
   - livestream

@@ -1,4 +1,4 @@
-[build]
+0p
   publish = "public"
   command = "yarn run build"
 [build.environment]
