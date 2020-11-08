@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import { Link } from 'gatsby'
 import sitelogo from '../images/site-logo-150.png'
 import sun from '../images/sun.svg'
@@ -43,11 +43,20 @@ export default class Navigation extends Component {
             </Link>
           </div>
           <div className="links">
-            {menuLinks.map(link => (
-              <Link key={link.name} to={link.link} activeClassName="active">
-                {link.name}
-              </Link>
-            ))}
+            {
+            
+            menuLinks.map(link => (
+
+              <Fragment>
+                {link.external && <a href={link.link}>wiki</a> }
+                {!link.external &&  <Link key={link.name} to={link.link} activeClassName="active"> {link.name} </Link>}
+              </Fragment>
+            
+
+            ))
+            
+            
+            }
 
             <div className="cta">
               <button className="dark-switcher" onClick={theme.toggleDark}>

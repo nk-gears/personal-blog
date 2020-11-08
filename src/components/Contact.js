@@ -8,6 +8,10 @@ export default class Contact extends Component {
         <h1>Stay in Touch</h1>
         <p>
           I write about Programming, Cloud and my experiments with IOT.
+
+I also documenting all the Knowledge gained through Reading, Learning and Exploring till these days. 
+
+Checkout my Knowledge Wiki  <a href="https://wiki.nkdews.me">here</a> :  
         </p>
 
         <p>You can also contact me via email or find me around the web.</p>

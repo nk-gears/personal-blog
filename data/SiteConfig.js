@@ -25,6 +25,7 @@ const config = {
       name: 'me',
       link: '/me/',
     },
+  
     {
       name: 'posts',
       link: '/blog/',
@@ -37,6 +38,11 @@ const config = {
       name: 'contact',
       link: '/contact/',
     },
+    {
+      name: 'wiki',
+      link: 'https://wiki.nkdews.me',
+      external:true
+    }
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',
